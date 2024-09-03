@@ -24,19 +24,22 @@ This is a decentralized to-do list application built on the Ethereum blockchain 
 
 
 2. Install dependencies:
-   
+   ```bash
    cd decentralized-todo-list
    npm install
    cd client
    
 
 3. Start the Hardhat Node:
+   ```bash
    npx hardhat node
 
 4. Deploy the Contracts:
+   ```bash
    npx hardhat run scripts/deploy.js --network localhost
 
 5. Start the React App:
+   ```bash
    cd client
    npm start
 
