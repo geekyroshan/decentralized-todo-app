@@ -18,35 +18,31 @@ This is a decentralized to-do list application built on the Ethereum blockchain 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/decentralized-todo-list.git
 
+
 2. Install dependencies:
-  ```bash
+   
    cd decentralized-todo-list
-  ```bash
    npm install
-  ```bash
    cd client
-  ```bash
-   npm install
+   
 
 3. Start the Hardhat Node:
-  ```bash
    npx hardhat node
 
 4. Deploy the Contracts:
-  ```bash
    npx hardhat run scripts/deploy.js --network localhost
 
 5. Start the React App:
-  ```bash
    cd client
-  ```bash
    npm start
 
 
-#Make sure to import your hardhar wallets into MetaMask along with your Local Network(check hardhat.config.js)
+#Make sure to import your hardhar wallets into MetaMask along with your 
+Local Network(check hardhat.config.js)
 #This project is licensed under the MIT License.
 
 
